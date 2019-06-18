@@ -7,4 +7,27 @@ Author: msfz751
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
-Imports: logging
+Imports: logging,
+  dplyr,
+  ggplot2,
+  mlbench,
+  MASS,
+  C50,
+  Rtsne,
+  caret,
+  rpart,
+  rpart.plot,
+  knitr,
+  lattice,
+  scales,
+  naivebayes,
+  DT,
+  glmnet,
+  class,
+  caTools,
+  ranger,
+  randomForest,
+  kernlab,
+  RANN,
+  BiocManager
+RoxygenNote: 6.1.1
