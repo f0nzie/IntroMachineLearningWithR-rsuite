@@ -16,3 +16,12 @@ source(file.path(script_path, "set_env.R"), chdir = T)
 
 config <- load_config()
 args <- args_parser()
+
+
+#####################################################################
+
+# Install BioConductor packages
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(c("BiocStyle", "impute"))
