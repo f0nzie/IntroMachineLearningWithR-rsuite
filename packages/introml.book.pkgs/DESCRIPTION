@@ -29,5 +29,6 @@ Imports: logging,
   randomForest,
   kernlab,
   RANN,
-  BiocManager
+  BiocManager,
+  e1071
 RoxygenNote: 6.1.1
