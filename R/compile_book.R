@@ -17,7 +17,8 @@ loginfo("--> Pandoc version: %s", rmarkdown::pandoc_version())
 
 
 project_root <- rprojroot::find_rstudio_root_file()
-book_folder <- file.path(project_root, "work", "IntroMachineLearningWithR")
+# book_folder <- file.path(project_root, "work", "IntroMachineLearningWithR")
+book_folder <- file.path(project_root, "work", "book")
 input_file <- file.path(book_folder, "index.rmd")
 output_folder <- file.path(book_folder, "docs")
 
